@@ -19,8 +19,8 @@ Voltage = (adc0 * 0.1875)/1000;
 
 Serial.print("AIN0: "); 
 Serial.print(adc0);
-Serial.print("\tVoltage: ");
-Serial.println(Voltage, 7); 
+Serial.print("\t Tensao: ");
+Serial.println(Tensao, 7); 
 Serial.println();
 
 delay(1000);
